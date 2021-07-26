@@ -1,7 +1,11 @@
 def plus(a, s):
     return a + s
 
-print(plus(52, 66))
+
 
 def minus(a, s):
     return a - s
+
+if __name__ == '__main__':
+    for i in range(22):
+        print(plus(i, i+7))
