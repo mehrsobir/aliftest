@@ -48,7 +48,7 @@ else:
 
     imruz = date.today().isoformat()
     # Фиристодани e-mail
-    sendemail('mehr1981@mail.ru', 'Ҳуҷраи Шумо', f'Ҳуҷраи Шумо рақами {room[0][0]} аст. Аз {imruz} то {end_date}')
+    sendemail('clientmail@mail.ru', 'Ҳуҷраи Шумо', f'Ҳуҷраи Шумо рақами {room[0][0]} аст. Аз {imruz} то {end_date}')
     # Фиристодани паёмак ба телефон
-    sendemail('992918780555@sms.tj', 'Ҳуҷраи Шумо', f'Ҳуҷраи Шумо рақами {room[0][0]} аст. Аз {imruz} то {end_date}')
+    sendemail('992XXXXXXXXX@sms.tj', 'Ҳуҷраи Шумо', f'Ҳуҷраи Шумо рақами {room[0][0]} аст. Аз {imruz} то {end_date}')
 
